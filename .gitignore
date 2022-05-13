@@ -1,0 +1,23 @@
+*.pyc
+__pycache__/
+
+instance/
+
+.pytest_cache/
+.coverage
+htmlcov/
+certificates/
+
+dist/
+build/
+*.egg-info/
+
+.env
+
+.vscode
+
+qrcode.jpg
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
